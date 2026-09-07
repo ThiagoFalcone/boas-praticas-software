@@ -1,6 +1,6 @@
 # boas-praticas-software
 
-Atividade prática da disciplina **Manutenção e Configuração de Software** — Normas de Configuração, Boas Práticas e Git.
+Atividade prática da disciplina **Manutenção e Configuração de Software**: Normas de Configuração, Boas Práticas e Git.
 
 ## Estrutura
 
@@ -44,7 +44,7 @@ O código funcionava, mas era pouco legível e mal organizado: usava nomes de va
 
 **3. Como a modularização facilitou a organização do código?**
 
-Separar o cálculo da média, a verificação da situação do aluno e a exibição do resultado em métodos distintos fez com que cada trecho do programa tivesse uma única responsabilidade. Isso torna o código mais fácil de ler (o `main` passou a descrever o fluxo geral em poucas linhas), mais fácil de testar isoladamente e mais fácil de manter — se a regra de aprovação mudar, por exemplo, só é preciso alterar o método `verificarSituacao`, sem mexer no restante do programa.
+Separar o cálculo da média, a verificação da situação do aluno e a exibição do resultado em métodos distintos fez com que cada trecho do programa tivesse uma única responsabilidade. Isso torna o código mais fácil de ler (o `main` passou a descrever o fluxo geral em poucas linhas), mais fácil de testar isoladamente e mais fácil de manter. Se a regra de aprovação mudar, por exemplo, só é preciso alterar o método `verificarSituacao`, sem mexer no restante do programa.
 
 **4. Como o Git ajudou a controlar as alterações realizadas no sistema?**
 
